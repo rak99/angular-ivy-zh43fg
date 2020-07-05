@@ -1,0 +1,31 @@
+<!-- <div class="container">
+  <div class="box" [@flipState]="flip">
+    <div class="side front">
+      <img src="https://media.takealot.com/covers_tsins/63679720/63679720-1-pdpxl.jpg">
+    </div>
+    <div class="side back">
+      <img src="https://media.takealot.com/covers_tsins/58142191/58142191-1-pdpxl.jpeg">
+    </div>
+  </div>
+</div>
+
+<div class="button">
+  <button>FLIP</button>
+</div> -->
+
+<div class="container">
+  <div class="box" [@flipState]="flip">
+      <div class="side front">
+              <img src="https://media.takealot.com/covers_tsins/63679720/63679720-1-pdpxl.jpg">
+      </div>
+
+      <div class="side back">
+          <img src="https://media.takealot.com/covers_tsins/63679720/63679720-1-pdpxl.jpg">
+      </div>
+  </div>
+</div>
+
+
+<div>
+  <button (click)="toggleFlip()">Flip</button>
+</div>
